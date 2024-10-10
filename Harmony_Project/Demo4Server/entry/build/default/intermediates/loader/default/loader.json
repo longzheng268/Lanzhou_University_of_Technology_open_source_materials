@@ -1,0 +1,24 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\Code_Project\\Harmony_Project\\Demo4Server\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\Code_Project\\Harmony_Project\\Demo4Server",
+  "nodeModulesPath": "D:\\Code_Project\\Harmony_Project\\Demo4Server\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "anBuildOutPut": "D:\\Code_Project\\Harmony_Project\\Demo4Server\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\Code_Project\\Harmony_Project\\Demo4Server\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "entry\\src\\main\\ets\\entryability\\EntryAbility.ets": [
+    "ohos.app.ability.UIAbility",
+    "ohos.app.ability.AbilityConstant",
+    "ohos.app.ability.Want",
+    "ohos.hilog"
+  ],
+  "entry\\src\\main\\ets\\entrybackupability\\EntryBackupAbility.ets": [
+    "ohos.hilog",
+    "ohos.application.BackupExtensionAbility"
+  ],
+  "entry\\src\\main\\ets\\pages\\Index.ets": [
+    "ohos.net.socket"
+  ],
+  "entry\\src\\main\\ets\\utils\\utils.ets": [
+    "ohos.wifiManager"
+  ]
+}

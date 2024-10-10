@@ -1,0 +1,5 @@
+string MainAbility_desc 0x01000000
+string MainAbility_label 0x01000001
+string module_desc 0x01000002
+media icon 0x01000003
+media icon_small 0x01000004

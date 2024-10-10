@@ -1,0 +1,11 @@
+<div class="container">
+<text class="text">
+    此处修改为姓名和学号
+</text>
+<text class="text">
+     步数：{{ steps }}
+ </text>
+<text class="text">
+    心率：{{ heartRate }}
+</text>
+</div>

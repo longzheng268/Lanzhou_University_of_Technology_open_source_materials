@@ -1,0 +1,108 @@
+create database S_T;
+use S_T;
+CREATE TABLE Student(
+    Sno CHAR(9) PRIMARY KEY,
+    Sname CHAR(20) UNIQUE,
+    Ssex CHAR(2),
+    Sage SMALLINT,
+    Sdept CHAR(20)
+    );
+    CREATE TABLE Course(
+    Cno CHAR(4) PRIMARY KEY ,
+    Cname CHAR(40) NOT NULL ,
+    Cpno CHAR(4),
+    Ccredit Double
+);
+CREATE TABLE SC(
+    Sno CHAR(9) NOT NULL ,
+    Cno CHAR(4) NOT NULL ,
+    Grade smallint,
+    FOREIGN KEY (Sno) REFERENCES Student(Sno),
+    FOREIGN KEY (Cno) REFERENCES Course(Cno)
+);
+INSERT INTO Student (Sno, Sname, Ssex, Sage, Sdept) VALUES
+('201215121', '李勇', '男', 20, 'CS'),
+('201215122','刘晨','女',19,'CS'),
+('201215123','王敏','女',18,'MA'),
+('201215124','张立','男',19,'IS');
+INSERT INTO Course(Cno, Cname, Cpno, Ccredit) VALUES
+('1','数据库','5',4),
+('2','数学',NULL,2),
+('3','信息系统','1',4),
+('4','操作系统','6',3),
+('5','数据结构','7',4),
+('6','数据处理',NULL,4),
+('7','PASCAL语言','6',4);
+INSERT INTO SC(Sno, Cno, Grade) VALUES
+('201215121','1',92),
+('201215121','2',85),
+('201215121','3',88),
+('201215122','2',90),
+('201215122','3',86),
+('201215123','3',87),
+('201215123','1',56),
+('201215124','5',88),
+('201215124','6',67);
+
+CREATE VIEW IS_Student1 AS
+SELECT Sno, Sname, Sage
+FROM student
+WHERE Sdept = 'IS';
+
+CREATE VIEW IS_Student2 AS
+SELECT Sno, Sname, Sage
+FROM student
+WHERE Sdept = 'IS'
+WITH CHECK OPTION;
+
+CREATE VIEW IS_S1 AS
+SELECT student.Sno,student.Sname,SC.Grade
+FROM student, SC
+WHERE student.Sno = SC.Sno AND student.Sdept = 'IS' AND SC.Cno = '1';
+
+CREATE VIEW IS_S2 AS
+SELECT student.Sno, student.Sname, SC.Grade
+FROM student, SC
+WHERE student.Sno = SC.Sno AND student.Sdept = 'IS' AND SC.Cno = '1' AND SC.Grade >= 90;
+
+CREATE VIEW BT_S AS
+SELECT Sno, Sname, YEAR(NOW()) - Sage AS Birthyear
+FROM student;
+
+CREATE VIEW S_G AS
+SELECT SC.Sno, AVG(SC.Grade) AS AvgGrade
+FROM SC
+GROUP BY SC.Sno;
+
+SELECT *
+FROM IS_Student1
+WHERE Sage<20;
+
+SELECT *
+FROM IS_S1;
+
+CREATE USER 'u1'@'localhost' IDENTIFIED BY '123456';
+CREATE USER 'u2'@'localhost' IDENTIFIED BY '123456';
+
+GRANT SELECT ON s_t.student TO 'u1'@'localhost';
+
+GRANT SELECT ON s_t.SC TO 'u1'@'localhost';
+GRANT SELECT ON s_t.SC TO 'u2'@'localhost';
+
+GRANT SELECT, UPDATE(Sname) ON s_t.student TO 'u2'@'localhost';
+
+REVOKE UPDATE (Sname) ON S_T.student FROM 'u2'@'localhost';
+
+DELIMITER $$
+CREATE TRIGGER `update_sc_grade` AFTER UPDATE ON `SC` FOR EACH ROW
+BEGIN
+  DECLARE old_grade INT;
+  DECLARE new_grade INT;
+  SET old_grade = OLD.Grade;
+  SET new_grade = NEW.Grade;
+  IF new_grade > old_grade * 1.1 THEN
+    INSERT INTO SC_U (Sno, Cno, Oldgrade, Newgrade)
+    VALUES (OLD.Sno, OLD.Cno, old_grade, new_grade);
+  END IF;
+END$$
+DELIMITER ;

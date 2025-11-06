@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 30 14:26:32 2024
+# Process ID: 7740
+# Current directory: E:/project/lab3_risc/lab3_risc.runs/impl_1
+# Command line: vivado.exe -log risc32_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source risc32_wrapper.tcl -notrace
+# Log file: E:/project/lab3_risc/lab3_risc.runs/impl_1/risc32_wrapper.vdi
+# Journal file: E:/project/lab3_risc/lab3_risc.runs/impl_1\vivado.jou
+# Running On: cop, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 6, Host memory: 8291 MB
+#-----------------------------------------------------------
+source risc32_wrapper.tcl -notrace

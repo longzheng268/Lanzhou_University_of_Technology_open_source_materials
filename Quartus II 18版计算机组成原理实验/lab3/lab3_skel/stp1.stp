@@ -1,0 +1,412 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C40 (0x020F40DD)" sof_file="" top_level_entity="risc5">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2022/05/10 10:20:11  #0">
+      <clock name="clk_la" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="yes" trigger_in_node="clk" trigger_in_tap_mode="classic" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="alu_out[0]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[10]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[11]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[12]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[13]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[14]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[15]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[16]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[17]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[18]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[19]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[1]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[20]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[21]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[22]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[23]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[24]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[25]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[26]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[27]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[28]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[29]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[2]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[30]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[31]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[3]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[4]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[5]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[6]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[7]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[8]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[9]" tap_mode="classic" type="output pin"/>
+          <wire name="bsel" tap_mode="classic" type="input pin"/>
+          <wire name="instruction[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="pc_clr" tap_mode="classic" type="input pin"/>
+          <wire name="w_ena" tap_mode="classic" type="input pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="alu_out[0]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[10]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[11]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[12]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[13]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[14]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[15]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[16]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[17]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[18]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[19]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[1]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[20]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[21]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[22]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[23]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[24]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[25]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[26]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[27]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[28]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[29]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[2]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[30]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[31]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[3]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[4]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[5]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[6]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[7]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[8]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[9]" tap_mode="classic" type="output pin"/>
+          <wire name="bsel" tap_mode="classic" type="input pin"/>
+          <wire name="instruction[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="pc_clr" tap_mode="classic" type="input pin"/>
+          <wire name="w_ena" tap_mode="classic" type="input pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="alu_out[0]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[10]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[11]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[12]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[13]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[14]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[15]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[16]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[17]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[18]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[19]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[1]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[20]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[21]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[22]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[23]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[24]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[25]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[26]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[27]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[28]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[29]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[2]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[30]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[31]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[3]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[4]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[5]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[6]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[7]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[8]" tap_mode="classic" type="output pin"/>
+          <wire name="alu_out[9]" tap_mode="classic" type="output pin"/>
+          <wire name="bsel" tap_mode="classic" type="input pin"/>
+          <wire name="instruction[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[19]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[20]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[21]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[22]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[23]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[24]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[25]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[26]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[27]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[28]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[29]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[30]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[31]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="instruction[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="pc_clr" tap_mode="classic" type="input pin"/>
+          <wire name="w_ena" tap_mode="classic" type="input pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="alu_out" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="alu_out[0]"/>
+            <net is_signal_inverted="no" name="alu_out[1]"/>
+            <net is_signal_inverted="no" name="alu_out[2]"/>
+            <net is_signal_inverted="no" name="alu_out[3]"/>
+            <net is_signal_inverted="no" name="alu_out[4]"/>
+            <net is_signal_inverted="no" name="alu_out[5]"/>
+            <net is_signal_inverted="no" name="alu_out[6]"/>
+            <net is_signal_inverted="no" name="alu_out[7]"/>
+            <net is_signal_inverted="no" name="alu_out[8]"/>
+            <net is_signal_inverted="no" name="alu_out[9]"/>
+            <net is_signal_inverted="no" name="alu_out[10]"/>
+            <net is_signal_inverted="no" name="alu_out[11]"/>
+            <net is_signal_inverted="no" name="alu_out[12]"/>
+            <net is_signal_inverted="no" name="alu_out[13]"/>
+            <net is_signal_inverted="no" name="alu_out[14]"/>
+            <net is_signal_inverted="no" name="alu_out[15]"/>
+            <net is_signal_inverted="no" name="alu_out[16]"/>
+            <net is_signal_inverted="no" name="alu_out[17]"/>
+            <net is_signal_inverted="no" name="alu_out[18]"/>
+            <net is_signal_inverted="no" name="alu_out[19]"/>
+            <net is_signal_inverted="no" name="alu_out[20]"/>
+            <net is_signal_inverted="no" name="alu_out[21]"/>
+            <net is_signal_inverted="no" name="alu_out[22]"/>
+            <net is_signal_inverted="no" name="alu_out[23]"/>
+            <net is_signal_inverted="no" name="alu_out[24]"/>
+            <net is_signal_inverted="no" name="alu_out[25]"/>
+            <net is_signal_inverted="no" name="alu_out[26]"/>
+            <net is_signal_inverted="no" name="alu_out[27]"/>
+            <net is_signal_inverted="no" name="alu_out[28]"/>
+            <net is_signal_inverted="no" name="alu_out[29]"/>
+            <net is_signal_inverted="no" name="alu_out[30]"/>
+            <net is_signal_inverted="no" name="alu_out[31]"/>
+          </bus>
+          <net is_signal_inverted="no" name="bsel"/>
+          <net is_signal_inverted="no" name="pc_clr"/>
+          <net is_signal_inverted="no" name="w_ena"/>
+          <bus is_signal_inverted="no" link="all" name="instruction" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="instruction[0]"/>
+            <net is_signal_inverted="no" name="instruction[1]"/>
+            <net is_signal_inverted="no" name="instruction[2]"/>
+            <net is_signal_inverted="no" name="instruction[3]"/>
+            <net is_signal_inverted="no" name="instruction[4]"/>
+            <net is_signal_inverted="no" name="instruction[5]"/>
+            <net is_signal_inverted="no" name="instruction[6]"/>
+            <net is_signal_inverted="no" name="instruction[7]"/>
+            <net is_signal_inverted="no" name="instruction[8]"/>
+            <net is_signal_inverted="no" name="instruction[9]"/>
+            <net is_signal_inverted="no" name="instruction[10]"/>
+            <net is_signal_inverted="no" name="instruction[11]"/>
+            <net is_signal_inverted="no" name="instruction[12]"/>
+            <net is_signal_inverted="no" name="instruction[13]"/>
+            <net is_signal_inverted="no" name="instruction[14]"/>
+            <net is_signal_inverted="no" name="instruction[15]"/>
+            <net is_signal_inverted="no" name="instruction[16]"/>
+            <net is_signal_inverted="no" name="instruction[17]"/>
+            <net is_signal_inverted="no" name="instruction[18]"/>
+            <net is_signal_inverted="no" name="instruction[19]"/>
+            <net is_signal_inverted="no" name="instruction[20]"/>
+            <net is_signal_inverted="no" name="instruction[21]"/>
+            <net is_signal_inverted="no" name="instruction[22]"/>
+            <net is_signal_inverted="no" name="instruction[23]"/>
+            <net is_signal_inverted="no" name="instruction[24]"/>
+            <net is_signal_inverted="no" name="instruction[25]"/>
+            <net is_signal_inverted="no" name="instruction[26]"/>
+            <net is_signal_inverted="no" name="instruction[27]"/>
+            <net is_signal_inverted="no" name="instruction[28]"/>
+            <net is_signal_inverted="no" name="instruction[29]"/>
+            <net is_signal_inverted="no" name="instruction[30]"/>
+            <net is_signal_inverted="no" name="instruction[31]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="alu_out" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="alu_out[0]"/>
+            <net is_signal_inverted="no" name="alu_out[1]"/>
+            <net is_signal_inverted="no" name="alu_out[2]"/>
+            <net is_signal_inverted="no" name="alu_out[3]"/>
+            <net is_signal_inverted="no" name="alu_out[4]"/>
+            <net is_signal_inverted="no" name="alu_out[5]"/>
+            <net is_signal_inverted="no" name="alu_out[6]"/>
+            <net is_signal_inverted="no" name="alu_out[7]"/>
+            <net is_signal_inverted="no" name="alu_out[8]"/>
+            <net is_signal_inverted="no" name="alu_out[9]"/>
+            <net is_signal_inverted="no" name="alu_out[10]"/>
+            <net is_signal_inverted="no" name="alu_out[11]"/>
+            <net is_signal_inverted="no" name="alu_out[12]"/>
+            <net is_signal_inverted="no" name="alu_out[13]"/>
+            <net is_signal_inverted="no" name="alu_out[14]"/>
+            <net is_signal_inverted="no" name="alu_out[15]"/>
+            <net is_signal_inverted="no" name="alu_out[16]"/>
+            <net is_signal_inverted="no" name="alu_out[17]"/>
+            <net is_signal_inverted="no" name="alu_out[18]"/>
+            <net is_signal_inverted="no" name="alu_out[19]"/>
+            <net is_signal_inverted="no" name="alu_out[20]"/>
+            <net is_signal_inverted="no" name="alu_out[21]"/>
+            <net is_signal_inverted="no" name="alu_out[22]"/>
+            <net is_signal_inverted="no" name="alu_out[23]"/>
+            <net is_signal_inverted="no" name="alu_out[24]"/>
+            <net is_signal_inverted="no" name="alu_out[25]"/>
+            <net is_signal_inverted="no" name="alu_out[26]"/>
+            <net is_signal_inverted="no" name="alu_out[27]"/>
+            <net is_signal_inverted="no" name="alu_out[28]"/>
+            <net is_signal_inverted="no" name="alu_out[29]"/>
+            <net is_signal_inverted="no" name="alu_out[30]"/>
+            <net is_signal_inverted="no" name="alu_out[31]"/>
+          </bus>
+          <net is_signal_inverted="no" name="bsel"/>
+          <net is_signal_inverted="no" name="pc_clr"/>
+          <net is_signal_inverted="no" name="w_ena"/>
+          <bus is_signal_inverted="no" link="all" name="instruction" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="instruction[0]"/>
+            <net is_signal_inverted="no" name="instruction[1]"/>
+            <net is_signal_inverted="no" name="instruction[2]"/>
+            <net is_signal_inverted="no" name="instruction[3]"/>
+            <net is_signal_inverted="no" name="instruction[4]"/>
+            <net is_signal_inverted="no" name="instruction[5]"/>
+            <net is_signal_inverted="no" name="instruction[6]"/>
+            <net is_signal_inverted="no" name="instruction[7]"/>
+            <net is_signal_inverted="no" name="instruction[8]"/>
+            <net is_signal_inverted="no" name="instruction[9]"/>
+            <net is_signal_inverted="no" name="instruction[10]"/>
+            <net is_signal_inverted="no" name="instruction[11]"/>
+            <net is_signal_inverted="no" name="instruction[12]"/>
+            <net is_signal_inverted="no" name="instruction[13]"/>
+            <net is_signal_inverted="no" name="instruction[14]"/>
+            <net is_signal_inverted="no" name="instruction[15]"/>
+            <net is_signal_inverted="no" name="instruction[16]"/>
+            <net is_signal_inverted="no" name="instruction[17]"/>
+            <net is_signal_inverted="no" name="instruction[18]"/>
+            <net is_signal_inverted="no" name="instruction[19]"/>
+            <net is_signal_inverted="no" name="instruction[20]"/>
+            <net is_signal_inverted="no" name="instruction[21]"/>
+            <net is_signal_inverted="no" name="instruction[22]"/>
+            <net is_signal_inverted="no" name="instruction[23]"/>
+            <net is_signal_inverted="no" name="instruction[24]"/>
+            <net is_signal_inverted="no" name="instruction[25]"/>
+            <net is_signal_inverted="no" name="instruction[26]"/>
+            <net is_signal_inverted="no" name="instruction[27]"/>
+            <net is_signal_inverted="no" name="instruction[28]"/>
+            <net is_signal_inverted="no" name="instruction[29]"/>
+            <net is_signal_inverted="no" name="instruction[30]"/>
+            <net is_signal_inverted="no" name="instruction[31]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2022/05/10 10:20:11  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="rising edge" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>0000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>0000000000000000000000000000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1440,799,398,124,356,50,124,0,50"/>
+  </global_info>
+</session>

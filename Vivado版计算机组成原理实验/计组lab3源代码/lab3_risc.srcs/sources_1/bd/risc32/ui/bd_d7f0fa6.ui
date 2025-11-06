@@ -1,0 +1,75 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.857893",
+   "Default View_TopLeft":"15,131",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -530 -y 410 -defaultsOSRD
+preplace port port-id_pc_clr -pg 1 -lvl 0 -x -530 -y 430 -defaultsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x -530 -y 20 -defaultsOSRD
+preplace portBus SSEG_AN -pg 1 -lvl 10 -x 2260 -y 20 -defaultsOSRD
+preplace portBus SSEG_CA -pg 1 -lvl 10 -x 2260 -y 40 -defaultsOSRD
+preplace portBus alu_out_0 -pg 1 -lvl 10 -x 2260 -y 430 -defaultsOSRD
+preplace inst adder_0 -pg 1 -lvl 2 -x -190 -y 220 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x -430 -y 230 -defaultsOSRD
+preplace inst slice_inst_0 -pg 1 -lvl 6 -x 1100 -y 430 -defaultsOSRD
+preplace inst cancat_control_0 -pg 1 -lvl 6 -x 1100 -y 200 -defaultsOSRD
+preplace inst control_rom_0 -pg 1 -lvl 7 -x 1490 -y 200 -defaultsOSRD
+preplace inst segment_0 -pg 1 -lvl 7 -x 1490 -y 30 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 6 -x 1100 -y 20 -defaultsOSRD
+preplace inst pc_0 -pg 1 -lvl 2 -x -190 -y 450 -defaultsOSRD
+preplace inst alu32_0 -pg 1 -lvl 8 -x 1840 -y 430 -defaultsOSRD
+preplace inst regfile_0 -pg 1 -lvl 7 -x 1490 -y 420 -defaultsOSRD
+preplace inst concat_imm_0 -pg 1 -lvl 6 -x 1100 -y 670 -defaultsOSRD
+preplace inst MUX_20b_2_to_1_0 -pg 1 -lvl 5 -x 680 -y 690 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 90 -y 660 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -x 90 -y 770 -defaultsOSRD
+preplace inst MUX_32b_2_to_1_0 -pg 1 -lvl 7 -x 1490 -y 670 -defaultsOSRD
+preplace inst dmem_0 -pg 1 -lvl 9 -x 2110 -y 420 -defaultsOSRD
+preplace inst MUX_32b_2_to_1_1 -pg 1 -lvl 8 -x 1840 -y 650 -defaultsOSRD
+preplace inst MUX_5b_2_to_1_0 -pg 1 -lvl 5 -x 680 -y 550 -defaultsOSRD
+preplace inst imem_0 -pg 1 -lvl 4 -x 370 -y 440 -defaultsOSRD
+preplace netloc adder_0_add_out 1 1 2 -330 290 -50
+preplace netloc cancat_control_0_dout 1 6 1 N 200
+preplace netloc clk_0_1 1 0 9 NJ 410 -340 370 N 370 N 370 N 370 850 560 1290 530 N 530 1990
+preplace netloc clk_in1_0_1 1 0 6 NJ 20 N 20 NJ 20 N 20 N 20 N
+preplace netloc clk_wiz_0_clk_out1 1 6 1 N 10
+preplace netloc clk_wiz_0_locked 1 6 1 N 30
+preplace netloc imem_0_inst 1 4 2 510 430 N
+preplace netloc pc_0_q 1 1 3 -350 360 -50J 440 N
+preplace netloc pc_clr_0_1 1 0 2 NJ 430 -350
+preplace netloc segment_0_AN 1 7 3 N 20 N 20 N
+preplace netloc segment_0_seg_data_o 1 7 3 N 40 N 40 N
+preplace netloc slice_inst_0_inst_14_12 1 5 2 810 110 1280
+preplace netloc slice_inst_0_inst_30 1 5 2 850 280 1250
+preplace netloc slice_inst_0_inst_6_2 1 5 2 850 120 1270
+preplace netloc xlconstant_0_dout 1 1 1 N 230
+preplace netloc slice_inst_0_inst_19_15 1 6 1 1300 410n
+preplace netloc slice_inst_0_inst_24_20 1 4 3 530 470 820 580 1310
+preplace netloc regfile_0_reg_data1 1 7 1 N 410
+preplace netloc control_rom_0_alusel 1 7 1 1670 210n
+preplace netloc alu32_0_alu_out 1 7 3 1700 520 1980 510 2240
+preplace netloc slice_inst_0_inst_11_7 1 4 3 510 450 840 570 1320
+preplace netloc control_rom_0_w_ena 1 6 2 1340 -50 1640
+preplace netloc slice_inst_0_inst_31_25 1 5 2 850 750 1250
+preplace netloc slice_inst_0_inst_31 1 4 3 530 770 NJ 770 1260
+preplace netloc xlconstant_1_dout 1 3 2 N 660 520
+preplace netloc xlconstant_2_dout 1 3 2 N 770 510
+preplace netloc MUX_20b_2_to_1_0_result 1 5 1 N 690
+preplace netloc regfile_0_reg_data2 1 6 3 1350 540 1660 510 1970
+preplace netloc concat_imm_0_dout 1 6 1 N 670
+preplace netloc MUX_32b_2_to_1_0_result 1 7 1 1680 430n
+preplace netloc control_rom_0_bsel 1 6 2 1330 310 1630
+preplace netloc dmem_0_d_out 1 7 3 1710 560 NJ 560 2230
+preplace netloc control_rom_0_mem_sel 1 7 1 1690 190n
+preplace netloc MUX_32b_2_to_1_1_result 1 6 3 1340 550 NJ 550 1980
+preplace netloc MUX_5b_2_to_1_0_result 1 5 1 810 550n
+preplace netloc control_rom_0_imm_sel 1 4 4 520 460 830J 590 NJ 590 1650
+preplace netloc control_rom_0_mem_ena 1 7 2 NJ 250 1980
+levelinfo -pg 1 -530 -430 -190 90 370 680 1100 1490 1840 2110 2260
+pagesize -pg 1 -db -bbox -sgen -640 -230 2410 940
+"
+}
+0

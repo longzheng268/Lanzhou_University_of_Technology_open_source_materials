@@ -1,0 +1,125 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 22:34:11  May 06, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		risc5_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY risc5
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:34:11  MAY 06, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "<None>"
+set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -section_id eda_design_synthesis
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PACKAGE PQFP
+set_global_assignment -name VERILOG_FILE alu32.v
+set_global_assignment -name VERILOG_FILE imem.v
+set_global_assignment -name VERILOG_FILE regfile.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE risc5.bdf
+set_global_assignment -name VERILOG_FILE imm_gen.v
+set_global_assignment -name VERILOG_FILE dmem.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE risc5.vwf
+set_global_assignment -name QIP_FILE lpm_dff0.qip
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_160 -to alu_out[31]
+set_global_assignment -name MISC_FILE "E:/cs/risc5/risc5.dpf"
+set_location_assignment PIN_43 -to clk
+set_location_assignment PIN_22 -to pc_clr
+set_location_assignment PIN_41 -to bsel
+set_location_assignment PIN_39 -to w_ena
+set_location_assignment PIN_56 -to alu_out[0]
+set_location_assignment PIN_57 -to alu_out[1]
+set_location_assignment PIN_63 -to alu_out[2]
+set_location_assignment PIN_68 -to alu_out[3]
+set_location_assignment PIN_69 -to alu_out[4]
+set_location_assignment PIN_70 -to alu_out[5]
+set_location_assignment PIN_73 -to alu_out[6]
+set_location_assignment PIN_76 -to alu_out[7]
+set_location_assignment PIN_78 -to alu_out[8]
+set_location_assignment PIN_80 -to alu_out[9]
+set_location_assignment PIN_112 -to alu_out[10]
+set_location_assignment PIN_113 -to alu_out[11]
+set_location_assignment PIN_114 -to alu_out[12]
+set_location_assignment PIN_117 -to alu_out[13]
+set_location_assignment PIN_118 -to alu_out[14]
+set_location_assignment PIN_126 -to alu_out[15]
+set_location_assignment PIN_127 -to alu_out[16]
+set_location_assignment PIN_128 -to alu_out[17]
+set_location_assignment PIN_131 -to alu_out[18]
+set_location_assignment PIN_132 -to alu_out[19]
+set_location_assignment PIN_133 -to alu_out[20]
+set_location_assignment PIN_134 -to alu_out[21]
+set_location_assignment PIN_135 -to alu_out[22]
+set_location_assignment PIN_137 -to alu_out[23]
+set_location_assignment PIN_139 -to alu_out[24]
+set_location_assignment PIN_142 -to alu_out[25]
+set_location_assignment PIN_143 -to alu_out[26]
+set_location_assignment PIN_144 -to alu_out[27]
+set_location_assignment PIN_145 -to alu_out[28]
+set_location_assignment PIN_146 -to alu_out[29]
+set_location_assignment PIN_159 -to alu_out[30]
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_location_assignment PIN_31 -to clk_la
+set_global_assignment -name MISC_FILE "E:/c202205/risc5_fin/risc5.dpf"
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name QIP_FILE lpm_mux2.qip
+set_global_assignment -name QIP_FILE lpm_mux3.qip
+set_global_assignment -name VERILOG_FILE control_rom.v
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name QIP_FILE lpm_dff1.qip
+set_global_assignment -name QIP_FILE lpm_constant1.qip
+set_global_assignment -name QIP_FILE lpm_mux4.qip
+set_global_assignment -name QIP_FILE lpm_mux5.qip
+set_global_assignment -name QIP_FILE lpm_mux6.qip
+set_global_assignment -name QIP_FILE lpm_mux7.qip
+set_global_assignment -name QIP_FILE lpm_dff2.qip
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name QIP_FILE lpm_mux8.qip
+set_global_assignment -name QIP_FILE lpm_mux9.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

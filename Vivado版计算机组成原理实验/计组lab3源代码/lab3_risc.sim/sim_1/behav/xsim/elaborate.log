@@ -1,0 +1,55 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot risc32_tb_behav xil_defaultlib.risc32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'clk_in1_0' is not connected on this instance [D:/lab3_risc_skel/lab3_risc.srcs/sim_1/new/risc32_tb.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX_20b_2_to_1
+Compiling module xil_defaultlib.risc32_MUX_20b_2_to_1_0_0
+Compiling module xil_defaultlib.MUX_32b_2_to_1
+Compiling module xil_defaultlib.risc32_MUX_32b_2_to_1_0_0
+Compiling module xil_defaultlib.risc32_MUX_32b_2_to_1_1_0
+Compiling module xil_defaultlib.MUX_5b_2_to_1
+Compiling module xil_defaultlib.risc32_MUX_5b_2_to_1_0_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.risc32_adder_0_0
+Compiling module xil_defaultlib.alu32
+Compiling module xil_defaultlib.risc32_alu32_0_0
+Compiling module xil_defaultlib.cancat_control
+Compiling module xil_defaultlib.risc32_cancat_control_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=17,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.risc32_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.risc32_clk_wiz_0_0
+Compiling module xil_defaultlib.concat_imm
+Compiling module xil_defaultlib.risc32_concat_imm_0_0
+Compiling module xil_defaultlib.control_rom
+Compiling module xil_defaultlib.risc32_control_rom_0_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.risc32_dmem_0_0
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.risc32_imem_0_0
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.risc32_pc_0_0
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.risc32_regfile_0_0
+Compiling module xil_defaultlib.segment
+Compiling module xil_defaultlib.risc32_segment_0_0
+Compiling module xil_defaultlib.slice_inst
+Compiling module xil_defaultlib.risc32_slice_inst_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.risc32_xlconstant_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.risc32_xlconstant_1_0
+Compiling module xil_defaultlib.risc32_xlconstant_2_0
+Compiling module xil_defaultlib.risc32
+Compiling module xil_defaultlib.risc32_wrapper
+Compiling module xil_defaultlib.risc32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot risc32_tb_behav

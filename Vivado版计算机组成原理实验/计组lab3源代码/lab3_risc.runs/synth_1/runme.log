@@ -1,0 +1,349 @@
+
+*** Running vivado
+    with args -log risc32_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source risc32_wrapper.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source risc32_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 411.512 ; gain = 31.484
+Command: read_checkpoint -auto_incremental -incremental E:/project/lab3_risc/lab3_risc.srcs/utils_1/imports/synth_1/risc32_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/project/lab3_risc/lab3_risc.srcs/utils_1/imports/synth_1/risc32_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top risc32_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13096
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1224.465 ; gain = 408.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'risc32_wrapper' [E:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/hdl/risc32_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'risc32' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/synth/risc32.v:12]
+INFO: [Synth 8-6157] synthesizing module 'risc32_MUX_20b_2_to_1_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_20b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_MUX_20b_2_to_1_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_20b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_MUX_32b_2_to_1_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_32b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_MUX_32b_2_to_1_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_32b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_MUX_32b_2_to_1_1_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_32b_2_to_1_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_MUX_32b_2_to_1_1_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_32b_2_to_1_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_MUX_5b_2_to_1_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_5b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_MUX_5b_2_to_1_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_MUX_5b_2_to_1_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_adder_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_adder_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_adder_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_adder_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_alu32_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_alu32_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_alu32_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_alu32_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_cancat_control_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_cancat_control_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_cancat_control_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_cancat_control_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_clk_wiz_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_clk_wiz_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_concat_imm_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_concat_imm_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_concat_imm_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_concat_imm_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_control_rom_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_control_rom_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_control_rom_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_control_rom_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_dmem_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_dmem_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_dmem_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_dmem_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_imem_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_imem_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_imem_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_imem_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_pc_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_pc_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_pc_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_pc_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_regfile_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_regfile_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_regfile_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_regfile_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_segment_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_segment_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_segment_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_segment_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_slice_inst_0_0' [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_slice_inst_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_slice_inst_0_0' (0#1) [E:/project/lab3_risc/lab3_risc.runs/synth_1/.Xil/Vivado-348-cop/realtime/risc32_slice_inst_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'risc32_xlconstant_0_0' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_0_0/synth/risc32_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_xlconstant_0_0' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_0_0/synth/risc32_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'risc32_xlconstant_1_0' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_1_0/synth/risc32_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_xlconstant_1_0' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_1_0/synth/risc32_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'risc32_xlconstant_1_1' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_1_1/synth/risc32_xlconstant_1_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized1' [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized1' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ipshared/badb/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_xlconstant_1_1' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_xlconstant_1_1/synth/risc32_xlconstant_1_1.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'risc32' (0#1) [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/synth/risc32.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'risc32_wrapper' (0#1) [E:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/hdl/risc32_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1315.602 ; gain = 499.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1315.602 ; gain = 499.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1315.602 ; gain = 499.801
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1315.602 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_adder_0_0/risc32_adder_0_0/risc32_adder_0_0_in_context.xdc] for cell 'risc32_i/adder_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_adder_0_0/risc32_adder_0_0/risc32_adder_0_0_in_context.xdc] for cell 'risc32_i/adder_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_regfile_0_0/risc32_regfile_0_0/risc32_regfile_0_0_in_context.xdc] for cell 'risc32_i/regfile_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_regfile_0_0/risc32_regfile_0_0/risc32_regfile_0_0_in_context.xdc] for cell 'risc32_i/regfile_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_slice_inst_0_0/risc32_slice_inst_0_0/risc32_slice_inst_0_0_in_context.xdc] for cell 'risc32_i/slice_inst_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_slice_inst_0_0/risc32_slice_inst_0_0/risc32_slice_inst_0_0_in_context.xdc] for cell 'risc32_i/slice_inst_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_alu32_0_0/risc32_alu32_0_0/risc32_alu32_0_0_in_context.xdc] for cell 'risc32_i/alu32_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_alu32_0_0/risc32_alu32_0_0/risc32_alu32_0_0_in_context.xdc] for cell 'risc32_i/alu32_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_32b_2_to_1_0_0/risc32_MUX_32b_2_to_1_0_0/risc32_MUX_32b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_32b_2_to_1_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_32b_2_to_1_0_0/risc32_MUX_32b_2_to_1_0_0/risc32_MUX_32b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_32b_2_to_1_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_concat_imm_0_0/risc32_concat_imm_0_0/risc32_concat_imm_0_0_in_context.xdc] for cell 'risc32_i/concat_imm_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_concat_imm_0_0/risc32_concat_imm_0_0/risc32_concat_imm_0_0_in_context.xdc] for cell 'risc32_i/concat_imm_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_dmem_0_0/risc32_dmem_0_0/risc32_dmem_0_0_in_context.xdc] for cell 'risc32_i/dmem_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_dmem_0_0/risc32_dmem_0_0/risc32_dmem_0_0_in_context.xdc] for cell 'risc32_i/dmem_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_32b_2_to_1_1_0/risc32_MUX_32b_2_to_1_1_0/risc32_MUX_32b_2_to_1_1_0_in_context.xdc] for cell 'risc32_i/MUX_32b_2_to_1_1'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_32b_2_to_1_1_0/risc32_MUX_32b_2_to_1_1_0/risc32_MUX_32b_2_to_1_1_0_in_context.xdc] for cell 'risc32_i/MUX_32b_2_to_1_1'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_5b_2_to_1_0_0/risc32_MUX_5b_2_to_1_0_0/risc32_MUX_5b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_5b_2_to_1_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_5b_2_to_1_0_0/risc32_MUX_5b_2_to_1_0_0/risc32_MUX_5b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_5b_2_to_1_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_cancat_control_0_0/risc32_cancat_control_0_0/risc32_cancat_control_0_0_in_context.xdc] for cell 'risc32_i/cancat_control_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_cancat_control_0_0/risc32_cancat_control_0_0/risc32_cancat_control_0_0_in_context.xdc] for cell 'risc32_i/cancat_control_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_control_rom_0_0/risc32_control_rom_0_0/risc32_control_rom_0_0_in_context.xdc] for cell 'risc32_i/control_rom_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_control_rom_0_0/risc32_control_rom_0_0/risc32_control_rom_0_0_in_context.xdc] for cell 'risc32_i/control_rom_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_imem_0_0/risc32_imem_0_0/risc32_imem_0_0_in_context.xdc] for cell 'risc32_i/imem_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_imem_0_0/risc32_imem_0_0/risc32_imem_0_0_in_context.xdc] for cell 'risc32_i/imem_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_20b_2_to_1_0_0/risc32_MUX_20b_2_to_1_0_0/risc32_MUX_20b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_20b_2_to_1_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_MUX_20b_2_to_1_0_0/risc32_MUX_20b_2_to_1_0_0/risc32_MUX_20b_2_to_1_0_0_in_context.xdc] for cell 'risc32_i/MUX_20b_2_to_1_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_segment_0_0/risc32_segment_0_0/risc32_segment_0_0_in_context.xdc] for cell 'risc32_i/segment_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_segment_0_0/risc32_segment_0_0/risc32_segment_0_0_in_context.xdc] for cell 'risc32_i/segment_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0_in_context.xdc] for cell 'risc32_i/clk_wiz_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0_in_context.xdc] for cell 'risc32_i/clk_wiz_0'
+Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_pc_0_0/risc32_pc_0_0/risc32_pc_0_0_in_context.xdc] for cell 'risc32_i/pc_0'
+Finished Parsing XDC File [e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_pc_0_0/risc32_pc_0_0/risc32_pc_0_0_in_context.xdc] for cell 'risc32_i/pc_0'
+Parsing XDC File [E:/project/lab3_risc/lab3_risc.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [E:/project/lab3_risc/lab3_risc.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc:9]
+Finished Parsing XDC File [E:/project/lab3_risc/lab3_risc.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/project/lab3_risc/lab3_risc.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/risc32_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/project/lab3_risc/lab3_risc.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/risc32_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/risc32_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/project/lab3_risc/lab3_risc.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/project/lab3_risc/lab3_risc.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1335.137 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1335.137 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in1_0. (constraint file  e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in1_0. (constraint file  e:/project/lab3_risc/lab3_risc.gen/sources_1/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/adder_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/xlconstant_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/regfile_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/slice_inst_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/alu32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/MUX_32b_2_to_1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/xlconstant_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/xlconstant_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/concat_imm_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/dmem_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/MUX_32b_2_to_1_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/MUX_5b_2_to_1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/cancat_control_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/control_rom_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/imem_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/MUX_20b_2_to_1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/segment_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for risc32_i/pc_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1335.137 ; gain = 519.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1337.008 ; gain = 521.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------+----------+
+|      |BlackBox name             |Instances |
++------+--------------------------+----------+
+|1     |risc32_MUX_20b_2_to_1_0_0 |         1|
+|2     |risc32_MUX_32b_2_to_1_0_0 |         1|
+|3     |risc32_MUX_32b_2_to_1_1_0 |         1|
+|4     |risc32_MUX_5b_2_to_1_0_0  |         1|
+|5     |risc32_adder_0_0          |         1|
+|6     |risc32_alu32_0_0          |         1|
+|7     |risc32_cancat_control_0_0 |         1|
+|8     |risc32_clk_wiz_0_0        |         1|
+|9     |risc32_concat_imm_0_0     |         1|
+|10    |risc32_control_rom_0_0    |         1|
+|11    |risc32_dmem_0_0           |         1|
+|12    |risc32_imem_0_0           |         1|
+|13    |risc32_pc_0_0             |         1|
+|14    |risc32_regfile_0_0        |         1|
+|15    |risc32_segment_0_0        |         1|
+|16    |risc32_slice_inst_0_0     |         1|
++------+--------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |risc32_MUX_20b_2_to_1_0 |     1|
+|2     |risc32_MUX_32b_2_to_1_0 |     1|
+|3     |risc32_MUX_32b_2_to_1_1 |     1|
+|4     |risc32_MUX_5b_2_to_1_0  |     1|
+|5     |risc32_adder_0          |     1|
+|6     |risc32_alu32_0          |     1|
+|7     |risc32_cancat_control_0 |     1|
+|8     |risc32_clk_wiz_0        |     1|
+|9     |risc32_concat_imm_0     |     1|
+|10    |risc32_control_rom_0    |     1|
+|11    |risc32_dmem_0           |     1|
+|12    |risc32_imem_0           |     1|
+|13    |risc32_pc_0             |     1|
+|14    |risc32_regfile_0        |     1|
+|15    |risc32_segment_0        |     1|
+|16    |risc32_slice_inst_0     |     1|
+|17    |IBUF                    |     2|
+|18    |OBUF                    |    16|
++------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1343.773 ; gain = 508.438
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1343.773 ; gain = 527.973
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1355.863 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1359.500 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c17b76c0
+INFO: [Common 17-83] Releasing license: Synthesis
+72 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1359.500 ; gain = 944.090
+INFO: [Common 17-1381] The checkpoint 'E:/project/lab3_risc/lab3_risc.runs/synth_1/risc32_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file risc32_wrapper_utilization_synth.rpt -pb risc32_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 14:24:16 2024...

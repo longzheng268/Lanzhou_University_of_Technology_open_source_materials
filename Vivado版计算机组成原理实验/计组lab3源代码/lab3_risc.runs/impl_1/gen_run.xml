@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1730269586">
+  <File Type="ROUTE-PWR" Name="risc32_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="risc32_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="risc32_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="risc32_wrapper_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="risc32_wrapper.msk"/>
+  <File Type="ROUTE-CLK" Name="risc32_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="risc32_wrapper.vdi"/>
+  <File Type="BG-BIT" Name="risc32_wrapper.bit"/>
+  <File Type="BG-DRC" Name="risc32_wrapper.drc"/>
+  <File Type="BG-BGN" Name="risc32_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="risc32_wrapper.bin"/>
+  <File Type="BITSTR-RBT" Name="risc32_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="risc32_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="risc32_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="risc32_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="risc32_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="risc32_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="risc32_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="risc32_wrapper.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="risc32_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="risc32_wrapper.hwdef"/>
+  <File Type="PLACE-IO" Name="risc32_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="risc32_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="risc32_wrapper_utilization_placed.pb"/>
+  <File Type="ROUTE-RQS" Name="risc32_wrapper_routed.rqs"/>
+  <File Type="PLACE-CTRL" Name="risc32_wrapper_control_sets_placed.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="risc32_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-DRC" Name="risc32_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="risc32_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="risc32_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="risc32_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="risc32_wrapper_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="risc32_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="risc32_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="risc32_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="risc32_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="risc32_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="risc32_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="risc32_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="risc32_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="risc32_wrapper_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="risc32_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="risc32_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="risc32_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="risc32_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="risc32_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="risc32_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="risc32_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="risc32_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="risc32_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="risc32_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="risc32_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="risc32_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="risc32_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="risc32_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="risc32_wrapper.rbd"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="risc32_wrapper_postroute_physopted.rqs"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slice_inst.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_32b_2_to_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/concat_imm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dmem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_5b_2_to_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cancat_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_rom.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/imem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_20b_2_to_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segment.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/risc32/risc32.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/risc32/hdl/risc32_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="risc32_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/risc32_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_dmem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_segment_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_control_rom_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_slice_inst_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_pc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_MUX_5b_2_to_1_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_MUX_32b_2_to_1_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_concat_imm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_cancat_control_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_regfile_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_imem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_MUX_32b_2_to_1_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="risc32_alu32_0_0"/>
+</GenRun>

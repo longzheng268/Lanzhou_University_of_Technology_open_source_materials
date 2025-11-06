@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="risc5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|risc5|lpm_mux8:inst7|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_irc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|risc5|lpm_mux9:inst8|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_frc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

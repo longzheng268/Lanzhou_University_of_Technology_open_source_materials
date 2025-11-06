@@ -1,0 +1,45 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab3_risc.gen/sources_1/bd/risc32/ipshared/7698" \
+"../../../../lab3_risc.srcs/sources_1/new/adder.v" \
+"../../../../lab3_risc.srcs/sources_1/new/slice_inst.v" \
+"../../../../lab3_risc.srcs/sources_1/new/cancat_control.v" \
+"../../../../lab3_risc.srcs/sources_1/new/control_rom.v" \
+"../../../../lab3_risc.srcs/sources_1/new/imem.v" \
+"../../../../lab3_risc.srcs/sources_1/new/segment.v" \
+"../../../../lab3_risc.srcs/sources_1/new/pc.v" \
+"../../../../lab3_risc.srcs/sources_1/new/alu32.v" \
+"../../../../lab3_risc.srcs/sources_1/new/regfile.v" \
+"../../../../lab3_risc.srcs/sources_1/new/concat_imm.v" \
+"../../../../lab3_risc.srcs/sources_1/new/MUX_20b_2_to_1.v" \
+"../../../../lab3_risc.srcs/sources_1/new/MUX_32b_2_to_1.v" \
+"../../../../lab3_risc.srcs/sources_1/new/dmem.v" \
+"../../../../lab3_risc.srcs/sources_1/new/MUX_5b_2_to_1.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_adder_0_0/sim/risc32_adder_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_xlconstant_0_0/sim/risc32_xlconstant_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_slice_inst_0_0/sim/risc32_slice_inst_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_cancat_control_0_0/sim/risc32_cancat_control_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_control_rom_0_0/sim/risc32_control_rom_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_imem_0_0/sim/risc32_imem_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_segment_0_0/sim/risc32_segment_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0_clk_wiz.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_clk_wiz_0_0/risc32_clk_wiz_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_pc_0_0/sim/risc32_pc_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_alu32_0_0/sim/risc32_alu32_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_regfile_0_0/sim/risc32_regfile_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_concat_imm_0_0/sim/risc32_concat_imm_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_MUX_20b_2_to_1_0_0/sim/risc32_MUX_20b_2_to_1_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_xlconstant_1_0/sim/risc32_xlconstant_1_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_xlconstant_2_0/sim/risc32_xlconstant_2_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_MUX_32b_2_to_1_0_0/sim/risc32_MUX_32b_2_to_1_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_dmem_0_0/sim/risc32_dmem_0_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_MUX_32b_2_to_1_1_0/sim/risc32_MUX_32b_2_to_1_1_0.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/ip/risc32_MUX_5b_2_to_1_0_1/sim/risc32_MUX_5b_2_to_1_0_1.v" \
+"../../../../lab3_risc.ip_user_files/bd/risc32/sim/risc32.v" \
+"../../../../lab3_risc.gen/sources_1/bd/risc32/hdl/risc32_wrapper.v" \
+"../../../../lab3_risc.srcs/sim_1/new/risc32_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

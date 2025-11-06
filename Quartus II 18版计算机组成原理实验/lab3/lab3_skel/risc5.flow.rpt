@@ -1,0 +1,190 @@
+Flow report for risc5
+Wed Oct 18 16:56:17 2023
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Wed Oct 18 16:56:15 2023    ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; risc5                                    ;
+; Top-level Entity Name              ; risc5                                    ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C40Q240C8                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; N/A                                      ;
+; Total logic elements               ; 271 / 39,600 ( < 1 % )                   ;
+;     Total combinational functions  ; 246 / 39,600 ( < 1 % )                   ;
+;     Dedicated logic registers      ; 158 / 39,600 ( < 1 % )                   ;
+; Total registers                    ; 158                                      ;
+; Total pins                         ; 69 / 129 ( 53 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0 / 1,161,216 ( 0 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 252 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/18/2023 16:56:03 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; risc5               ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                          ;
++------------------------------------+---------------------------------+---------------+-------------+----------------------+
+; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id           ;
++------------------------------------+---------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID              ; 268891672476666.169761936307748 ; --            ; --          ; --                   ;
+; EDA_INPUT_DATA_FORMAT              ; Edif                            ; --            ; --          ; eda_design_synthesis ;
+; ENABLE_SIGNALTAP                   ; Off                             ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_FF                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                    ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_FF                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                    ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_FF                          ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                    ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; IP_TOOL_VERSION                    ; 9.0                             ; --            ; --          ; --                   ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                              ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff0.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff0_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant0.bsf               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant0_bb.v              ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux0.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux0_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; E:/cs/risc5/risc5.dpf           ; --            ; --          ; --                   ;
+; MISC_FILE                          ; E:/c202205/risc5_fin/risc5.dpf  ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux1.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux1_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux2.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux2_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux3.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux3_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff1.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff1_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant1.bsf               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant1_bb.v              ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux4.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux4_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux5.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux5_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux6.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux6_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux7.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux7_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff2.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_dff2_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant2.bsf               ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_constant2_bb.v              ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux8.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux8_bb.v                   ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux9.bsf                    ; --            ; --          ; --                   ;
+; MISC_FILE                          ; lpm_mux9_bb.v                   ; --            ; --          ; --                   ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                            ; --            ; --          ; --                   ;
+; PARTITION_COLOR                    ; 16764057                        ; --            ; --          ; Top                  ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; --          ; Top                  ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga       ;
+; USE_SIGNALTAP_FILE                 ; stp1.stp                        ; --            ; --          ; --                   ;
++------------------------------------+---------------------------------+---------------+-------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 232 MB              ; 00:00:03                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 346 MB              ; 00:00:05                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 281 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 278 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:13     ; --                      ; --                  ; 00:00:12                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; c07-PC           ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                    ; c07-PC           ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler                 ; c07-PC           ; Windows Vista ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; c07-PC           ; Windows Vista ; 6.1        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off risc5 -c risc5
+quartus_fit --read_settings_files=off --write_settings_files=off risc5 -c risc5
+quartus_asm --read_settings_files=off --write_settings_files=off risc5 -c risc5
+quartus_sta risc5 -c risc5
+
+
+

@@ -1,0 +1,25 @@
+//
+module control_rom(input [8:0] inst,
+			output		imm_sel, bsel, mem_sel, alusel, w_ena, mem_ena);
+			
+				
+	reg [5:0] tem;
+	
+	assign {imm_sel, bsel, mem_sel, alusel, w_ena, mem_ena} = tem[5:0];
+	
+	always @(*) begin
+		case (inst)
+			12   : tem = 6'b000010;  	 //add control
+			268  : tem = 6'b000110;		//sub control		
+			4    : tem = 6'b010010;		//addi control
+			260  : tem = 6'b010010;		//addi control
+			64   : tem = 6'b011010;		//lw control
+			72   : tem = 6'b110001;		//sw control
+			default : tem = 0;
+		endcase
+	end
+	
+endmodule
+	
+	
+			

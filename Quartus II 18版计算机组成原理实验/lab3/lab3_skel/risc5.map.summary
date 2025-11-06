@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 18 16:56:05 2023
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : risc5
+Top-level Entity Name : risc5
+Family : Cyclone III
+Total logic elements : 342
+    Total combinational functions : 246
+    Dedicated logic registers : 158
+Total registers : 158
+Total pins : 69
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
